@@ -1,0 +1,126 @@
+/*  variable */
+:root{
+    --colorBotones: rgb(80,80,80);
+
+
+    /* GENERAL */
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("./images/bg-body.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header .logo{
+    width: 180px;
+    margin: 15px 0 30px 0;
+    border-radius: 90%;
+}
+
+header .toggle-nav{
+    display: block;
+    margin-bottom: 30px;
+}
+
+header .toggle-nav span{
+    padding: 5px;
+    background-color:var(--colorBotones);
+
+}
+
+
+header nav.main-nav li{
+    background-color:var(--colorBotones);
+    border: 1px solid white;
+    padding: 5px;
+}
+
+/* BANNER */
+
+section.banner img{
+    display: none;
+}
+
+/*  SECCION Productos */
+
+.container section.vip-products article{
+    margin-bottom: 30 px;
+}
+
+.container section.vip-products article .photo-container{
+
+    position: relative;
+
+}
+
+
+.container section.vip-products article .photo{
+    width: 100%;
+}
+
+.container section.vip-products article .special{
+    position:absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.container section.vip-products article .zoom{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    padding: 5px;
+}
+
+.container section.vip-products article.product h2{
+    margin-top: 15px 0;
+}
+
+.container section.vip-products article.product p{
+    margin-bottom: 15px;
+    padding: 5px;
+    text-transform: lowercase;
+}
+
+.container section.vip-products article.product a.more{
+    background-color:var (--colorBotones);
+    padding: 5px;
+    text-transform: lowercase;
+
+}
+
+/*
+
+header.main-nav li:not(:last-child){
+    margin-right: ;
+}
