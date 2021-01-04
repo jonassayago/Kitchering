@@ -124,3 +124,78 @@ section.banner img{
 header.main-nav li:not(:last-child){
     margin-right: ;
 }
+
+/* FOOTER */
+
+.container footer li{
+    background-color: firebrick;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* movies queries */
+
+/* version tablet */
+
+@media(min-width:426px){
+
+    header{
+        margin-bottom: 20px;
+    }
+
+    .container header .toggle-nav{
+        display: none;
+    }
+
+    header nav.main-nav li{
+        display: inline-block;
+        width: 117px;
+    }
+
+    header nav.main-nav li:not(:last-child){
+        margin-right: 4px;
+    }
+
+    section.banner img{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .container section.vip-products{
+        overflow: hidden;
+
+    }
+    .container section.vip-products article{
+        float: left;
+        width: 48%;
+
+    }
+    .container section.vip-products article:nth-child(odd){
+        margin-right: 4%;
+    }
+}
+
+@media(min-width:769px){
+
+    .container{
+        max-width: 1180px;
+    }
+
+    header nav.main-nav ul{
+        overflow: hidden;
+        width: 100%;
+    }
+
+    header nav.main-nav li{
+        width: 124px;
+        float: center;
+    }
+
+    header nav.main-nav li:not(:last-child){
+        margin-right: 15px;
+    }
+}
+
